@@ -22,9 +22,13 @@ map <leader>e :NERDTreeToggle<CR>
 nnoremap <c-n> :NERDTree <cr>  "以ctrl+n開啟NERDTree這個plugin"
 
 syntax on
-set backspace=2
 set hlsearch
 let g:NERDTreeWinSize = 30
 
-"set listchars=tab:>-
-"set list
+set listchars=tab:>-
+set list
+
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
