@@ -28,7 +28,12 @@ let g:NERDTreeWinSize = 30
 set listchars=tab:>-
 set list
 
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set cursorline
+set cursorcolumn
+hi CursorLine term=none cterm=none ctermbg=none ctermbg=none
+hi CursorColumn term=none cterm=none ctermbg=none ctermbg=none
+au InsertEnter * hi CursorLine term=none ctermbg=darkblue
+au InsertLeave * hi CursorLine term=none cterm=none ctermbg=none
+au InsertEnter * hi CursorColumn term=none ctermbg=darkblue
+au InsertLeave * hi CursorColumn term=none cterm=none ctermbg=none
+
