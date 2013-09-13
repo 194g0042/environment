@@ -23,6 +23,7 @@ nnoremap <c-n> :NERDTree <cr>  "以ctrl+n開啟NERDTree這個plugin"
 
 syntax on
 set hlsearch
+set ruler
 let g:NERDTreeWinSize = 30
 
 set listchars=tab:>-
