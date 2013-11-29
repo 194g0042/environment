@@ -25,6 +25,7 @@ syntax on
 set hlsearch
 set ruler
 let g:NERDTreeWinSize = 30
+set bg=dark
 
 set listchars=tab:>-
 set list
